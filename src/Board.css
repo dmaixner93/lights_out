@@ -1,0 +1,77 @@
+.Board-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Board {
+  margin: 5% auto;
+  box-shadow: 0 0 40px #C9FBFF, 0px 0 70px #C04CFD, 10px 0 70px #00A7E1;
+}
+
+.Board-title {
+  font-size: 7em;
+  text-align: center;
+}
+
+.Winner {
+  margin: 10% auto;
+  font-size: 7em;
+}
+
+.Neon-blue {
+  font-family: 'Neon';
+  color: #357DED;
+}
+
+.Shadow-blue {
+  text-shadow: 2px 2px 3px #90B8F5,
+  -2px -2px 3px #90B8F5;
+  animation: flicker 3s infinite;
+}
+
+.Neon-green {
+  font-family: 'Neon';
+  color: #32E875;
+}
+
+.Shadow-green {
+  text-shadow: 2px 2px 3px rgb(162, 238, 190),
+  -2px -2px 3px rgb(162, 238, 190);
+  animation: flicker 2.5s infinite reverse;
+}
+
+.Board-button {
+  -webkit-appearance: none;
+  color: #357DED;
+  font-size: 24px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #357DED;
+  background-color: #121217;
+  opacity: 0.8;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.55;
+  }
+  25% {
+    opacity: 0.85;
+  }
+  35% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.65;
+  }
+  75% {
+    opacity: 1.0;
+  }
+  85% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
