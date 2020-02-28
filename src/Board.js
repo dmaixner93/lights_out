@@ -27,7 +27,6 @@ class Board extends Component {
     }
     return board
   }
-
   flipCellsAround(coord) {
     let {ncols, nrows} = this.props;
     let board = this.state.board;
