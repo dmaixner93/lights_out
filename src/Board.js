@@ -87,6 +87,9 @@ class Board extends Component {
             <div>
               {this.makeBoard()}
             </div>
+            <div className="Buttons-wrapper">
+              <button className="Restart-button" onClick={() => this.playAgain()}>Restart</button>
+            </div>
           </div>
         )
       }

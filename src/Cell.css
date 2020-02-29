@@ -1,6 +1,6 @@
 .Cell {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   cursor: pointer;
   background-color: #002642;
   opacity: 0.6;
